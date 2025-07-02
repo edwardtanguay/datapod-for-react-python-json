@@ -21,9 +21,9 @@ https://www.youtube.com/watch?v=nbTz9xn9s_U
 -   ✔️ tested on Windows
 -   ✔️ tested on Ubuntu
 
-## Updates
+## Testing
 
--   2025-05-19 07:04:37 optimized import for qtools
+-	`npm test` (runs all pytests)
 
 ## More Datapod templates and sites
 
