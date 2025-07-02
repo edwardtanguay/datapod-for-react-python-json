@@ -8,6 +8,8 @@
 		"cp": "cd scripts && python create-page.py",
 		"pd": "cd scripts && python parse-data.py",
 		"learn": "cd scripts && python cli-learn.py",
+		"gh": "git log --pretty=format:\"%ad | %h | %s\" --date=format:\"%Y-%m-%d %H:%M:%S\"",
+		"backup": "bash -c 'git archive --format=zip HEAD -o \"../BACKUP/datapod-for-react-python-json-$(date +%F-%H-%M-%S).zip\"'",
 		"build": "tsc && vite build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
