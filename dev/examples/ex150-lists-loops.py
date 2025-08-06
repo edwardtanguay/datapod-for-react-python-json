@@ -16,14 +16,14 @@ while i >= 0:
 	print(f"#{i+1} = {planets[i]}")
 	i -= 1
 
-section('list comprehension')
+section('list comprehension') #know
 [print(planet) for planet in planets]
 
-section('filter')
-searchLetter = "e"
+section('filter') #know
+searchLetter = "a"
 filteredPlanets = [planet for planet in planets if searchLetter in planet.lower()]
 print(f'Planets that have "{searchLetter}" in their name: {filteredPlanets}')
 
-section('map/filter')
+section('map/filter') #know
 booleanMapForFilteredPlanets = [True if searchLetter in planet.lower() else False for planet in planets]
 print(booleanMapForFilteredPlanets)

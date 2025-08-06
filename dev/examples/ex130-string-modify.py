@@ -21,7 +21,7 @@ print(f"find: {name.find('Tesla')}")
 
 section('join')
 names = ["Harold", "Austin", "Georg"]
-print(f"The names of invitees are: {", ".join(names)}") # not is the opposite as in JavaScript
+print(f"The names of invitees are: {", ".join(names)}") # note this is the opposite as in JavaScript
 
 section('split')
 url = "https://company.com/products/specials/003"

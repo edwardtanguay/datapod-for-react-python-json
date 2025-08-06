@@ -36,7 +36,7 @@ print(scores)
 section('insert')
 ages = [34,35,36,38,39]
 print(ages)
-ages.insert(3, 37)
+ages.insert(3, 37) # "before the item with index 3, insert 37"
 print(ages)
 
 section('add item to end - like push')
