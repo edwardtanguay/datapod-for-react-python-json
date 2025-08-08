@@ -40,10 +40,14 @@ https://www.youtube.com/watch?v=nbTz9xn9s_U
 
 ## Run Jupyter notebooks example
 
--   `cd ex_heatmap`
--   `python -m ipykernel install --user --name=.venv --display-name "Python (.venv)"`
+-   `cd dev`
+-   `python -m ipykernel install --user --name=dpodsitevenv --display-name "Python (Dpod site)"`
 -   `jupyter lab`
 
-## More Datapod templates and sites
+- other useful commands:
+  - `jupyter kernelspec list`
+  - `jupyter kernelspec uninstall dpodvenv`
+
+## More Datapod templates and sitespython -m ipykernel install --user --name=.venv --display-name "Python (.venv)"
 
 https://datapod-tanguay-eu.vercel.app
