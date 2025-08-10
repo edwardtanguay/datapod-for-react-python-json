@@ -2,30 +2,12 @@
 
 This is a simple datapod template for a local site that displays data from a JSON file, which is created by a Python script that parses a text file.
 
-## Howto
-
-https://tanguay-eu.vercel.app/howtos/900
-
-## Video
-
-https://www.youtube.com/watch?v=nbTz9xn9s_U
-
-## Create HTML documentation for qtools
-
--   cd scripts
--   `pdoc qtools --output-dir docs`
--   see scripts/docs/index.html
-
 ## Compatibility
 
 -   ✔️ tested on Windows
 -   ✔️ tested on Ubuntu
 
-## Testing
-
--   `npm test` (runs all pytests)
-
-## Setup
+## Set up backend
 
 -   (root directory of this project)
 -   `python -m venv .venv`
@@ -34,9 +16,17 @@ https://www.youtube.com/watch?v=nbTz9xn9s_U
 -   (Windows command line) `.venv\Scripts\activate`
 -   `pip install -r requirements.txt`
 
-## Run scripts
+## Set up frontend
 
--   `python main.py`
+- `npm i`
+- `npm run dev`
+
+## npm scripts
+
+- `npm run cp` - create page
+- `npm run pd` - parse data 
+- `npm run gh` - GitHub commit log
+- `npm run backup` - backup site in ../BACKUP folder (as .zip file without node_modules)
 
 ## Run Jupyter notebooks example
 
@@ -48,6 +38,16 @@ https://www.youtube.com/watch?v=nbTz9xn9s_U
   - `jupyter kernelspec list`
   - `jupyter kernelspec uninstall dpodvenv`
 
-## More Datapod templates and sitespython -m ipykernel install --user --name=.venv --display-name "Python (.venv)"
+## Testing (beta)
+
+-   `npm test` (runs all pytests)
+
+## Create HTML documentation for qtools (beta)
+
+-   cd scripts
+-   `pdoc qtools --output-dir docs`
+-   see scripts/docs/index.html
+
+## More Datapod templates and sites
 
 https://datapod-tanguay-eu.vercel.app
