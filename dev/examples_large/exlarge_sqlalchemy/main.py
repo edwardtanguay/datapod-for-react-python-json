@@ -1,10 +1,7 @@
 from models import Department, Employee
 from connection import engine, Base
 
-if __name__ == "__main__":
-	# Create all tables in the database
-	Base.metadata.create_all(engine)
-
+def save_data():
 	# Example usage: Adding a department and an employee
 	from connection import session
 
@@ -19,3 +16,10 @@ if __name__ == "__main__":
 	session.commit()
 
 	print("Department and Employee added successfully!")
+
+
+if __name__ == "__main__":
+	# Create all tables in the database
+	Base.metadata.create_all(engine)
+
+	save_data()
