@@ -18,8 +18,3 @@ https://realpython.com/quizzes/python-async-iterators/viewer/
 
 2025-08-12 13:44:33
 https://realpython.com/quizzes/python-data-types/
-66
-
-2025-08-12 14:21:56
-https://realpython.com/quizzes/python-input-output/viewer/
-80
