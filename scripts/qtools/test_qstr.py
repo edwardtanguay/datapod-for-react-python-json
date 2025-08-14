@@ -16,4 +16,4 @@ def test_generate_short_uuid_charset():
 def test_generate_short_uuid_uniqueness():
     """Test that multiple UUIDs are likely to be unique"""
     uuids = {qstr.generate_short_uuid() for _ in range(100)}
-    assert len(uuids) == 100  # Very small chance of collision with 100 6-char IDs
+    assert len(uuids) == 100  # very small chance of duplicate
