@@ -23,3 +23,8 @@ https://realpython.com/quizzes/python-data-types/
 2025-08-12 14:21:56
 https://realpython.com/quizzes/python-input-output/viewer/
 80
+
+2025-08-14 20:00:59
+https://realpython.com/quizzes/beautiful-soup-web-scraper-python/viewer/
+50
+
