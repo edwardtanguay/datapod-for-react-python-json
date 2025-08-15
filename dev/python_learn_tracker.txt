@@ -28,3 +28,6 @@ https://realpython.com/quizzes/python-input-output/viewer/
 https://realpython.com/quizzes/beautiful-soup-web-scraper-python/viewer/
 50
 
+2025-08-15 20:14:14
+https://realpython.com/quizzes/bitwise-operators/viewer/
+23
