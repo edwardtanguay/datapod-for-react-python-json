@@ -31,3 +31,8 @@ https://realpython.com/quizzes/beautiful-soup-web-scraper-python/viewer/
 2025-08-15 20:14:14
 https://realpython.com/quizzes/bitwise-operators/viewer/
 23
+
+https://realpython.com/quizzes/python-django-blog/
+https://realpython.com/quizzes/python-guitar-synthesizer/
+https://realpython.com/quizzes/build-llm-rag-chatbot-with-langchain/
+
