@@ -32,7 +32,12 @@ https://realpython.com/quizzes/beautiful-soup-web-scraper-python/viewer/
 https://realpython.com/quizzes/bitwise-operators/viewer/
 23
 
+2025-08-16 17:51:11
 https://realpython.com/quizzes/python-django-blog/
+62
+
+
+
 https://realpython.com/quizzes/python-guitar-synthesizer/
 https://realpython.com/quizzes/build-llm-rag-chatbot-with-langchain/
 
