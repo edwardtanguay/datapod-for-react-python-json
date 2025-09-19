@@ -14,7 +14,7 @@ This is a simple datapod template for a local site that displays data from a JSO
 -   (Linux/Mac) `source .venv/bin/activate`
 -   (Windows with bash) `source .venv/Scripts/activate`
 -   (Windows command line) `.venv\Scripts\activate`
--   `pip install -r requirements.txt`
+-   `pip install -r requirements.txt` (can take more than 1 minute)
 
 ## Set up frontend
 
